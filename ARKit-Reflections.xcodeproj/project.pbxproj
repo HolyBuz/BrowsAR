@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -100,10 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				9872C29721D935FD007995C0 /* AppDelegate.swift */,
-				9872C29921D935FD007995C0 /* art.scnassets */,
 				9872C29B21D935FD007995C0 /* ViewController.swift */,
 				9872C29D21D935FD007995C0 /* Main.storyboard */,
 				9872C2A021D935FE007995C0 /* Assets.xcassets */,
+				9872C29921D935FD007995C0 /* art.scnassets */,
 				9872C2A221D935FE007995C0 /* LaunchScreen.storyboard */,
 				9872C2A521D935FE007995C0 /* Info.plist */,
 			);
@@ -208,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = 9872C28F21D935FD007995C0 /* Build configuration list for PBXProject "ARKit-Reflections" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -439,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
 				INFOPLIST_FILE = "ARKit-Reflections/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "AlessandroLoi.ARKit-Reflections";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
 				INFOPLIST_FILE = "ARKit-Reflections/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "AlessandroLoi.ARKit-Reflections";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
