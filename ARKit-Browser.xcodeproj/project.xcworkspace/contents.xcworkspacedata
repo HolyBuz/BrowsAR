@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ARKit-Reflections.xcodeproj">
+      location = "self:/Users/holybuz/Documents/GitHub/ARKit-Reflections/ARKit-Browser.xcodeproj">
    </FileRef>
 </Workspace>

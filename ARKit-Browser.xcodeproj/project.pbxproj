@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984C3FBC244CA6F500A2050A /* WebViewNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FBB244CA6F500A2050A /* WebViewNode.swift */; };
+		984C3FBE244CA90B00A2050A /* WebViewNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FBD244CA90B00A2050A /* WebViewNavigationBar.swift */; };
+		984C3FC3244CB12E00A2050A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C3FC2244CB12E00A2050A /* Extensions.swift */; };
 		9872C29821D935FD007995C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C29721D935FD007995C0 /* AppDelegate.swift */; };
 		9872C29A21D935FD007995C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9872C29921D935FD007995C0 /* art.scnassets */; };
 		9872C29C21D935FD007995C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C29B21D935FD007995C0 /* ViewController.swift */; };
 		9872C29F21D935FD007995C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9872C29D21D935FD007995C0 /* Main.storyboard */; };
 		9872C2A121D935FE007995C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9872C2A021D935FE007995C0 /* Assets.xcassets */; };
 		9872C2A421D935FE007995C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9872C2A221D935FE007995C0 /* LaunchScreen.storyboard */; };
-		9872C2AF21D935FE007995C0 /* ARKit_ReflectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C2AE21D935FE007995C0 /* ARKit_ReflectionsTests.swift */; };
-		9872C2BA21D935FE007995C0 /* ARKit_ReflectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C2B921D935FE007995C0 /* ARKit_ReflectionsUITests.swift */; };
+		9872C2AF21D935FE007995C0 /* ARKit-BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C2AE21D935FE007995C0 /* ARKit-BrowserTests.swift */; };
+		9872C2BA21D935FE007995C0 /* ARKit-BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872C2B921D935FE007995C0 /* ARKit-BrowserUITests.swift */; };
+		98D49BAD21FB7BA500EA10F5 /* ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D49BAC21FB7BA500EA10F5 /* ARSessionDelegate.swift */; };
+		98F1D80A21DA417A00CF3E8A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D80921DA417A00CF3E8A /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9872C29421D935FD007995C0 /* ARKit-Reflections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-Reflections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		984C3FBB244CA6F500A2050A /* WebViewNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewNode.swift; sourceTree = "<group>"; };
+		984C3FBD244CA90B00A2050A /* WebViewNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewNavigationBar.swift; sourceTree = "<group>"; };
+		984C3FC2244CB12E00A2050A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9872C29421D935FD007995C0 /* ARKit-Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9872C29721D935FD007995C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9872C29921D935FD007995C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		9872C29B21D935FD007995C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +51,14 @@
 		9872C2A021D935FE007995C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9872C2A321D935FE007995C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9872C2A521D935FE007995C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9872C2AA21D935FE007995C0 /* ARKit-ReflectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-ReflectionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9872C2AE21D935FE007995C0 /* ARKit_ReflectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_ReflectionsTests.swift; sourceTree = "<group>"; };
+		9872C2AA21D935FE007995C0 /* ARKit-BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9872C2AE21D935FE007995C0 /* ARKit-BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit-BrowserTests.swift"; sourceTree = "<group>"; };
 		9872C2B021D935FE007995C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9872C2B521D935FE007995C0 /* ARKit-ReflectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-ReflectionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9872C2B921D935FE007995C0 /* ARKit_ReflectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_ReflectionsUITests.swift; sourceTree = "<group>"; };
+		9872C2B521D935FE007995C0 /* ARKit-BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9872C2B921D935FE007995C0 /* ARKit-BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARKit-BrowserUITests.swift"; sourceTree = "<group>"; };
 		9872C2BB21D935FE007995C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D49BAC21FB7BA500EA10F5 /* ARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionDelegate.swift; sourceTree = "<group>"; };
+		98F1D80921DA417A00CF3E8A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		984C3FBF244CB11B00A2050A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				984C3FC2244CB12E00A2050A /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9872C28B21D935FD007995C0 = {
 			isa = PBXGroup;
 			children = (
-				9872C29621D935FD007995C0 /* ARKit-Reflections */,
-				9872C2AD21D935FE007995C0 /* ARKit-ReflectionsTests */,
-				9872C2B821D935FE007995C0 /* ARKit-ReflectionsUITests */,
+				9872C29621D935FD007995C0 /* ARKit-Browser */,
+				9872C2AD21D935FE007995C0 /* ARKit-BrowserTests */,
+				9872C2B821D935FE007995C0 /* ARKit-BrowserUITests */,
 				9872C29521D935FD007995C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +107,80 @@
 		9872C29521D935FD007995C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9872C29421D935FD007995C0 /* ARKit-Reflections.app */,
-				9872C2AA21D935FE007995C0 /* ARKit-ReflectionsTests.xctest */,
-				9872C2B521D935FE007995C0 /* ARKit-ReflectionsUITests.xctest */,
+				9872C29421D935FD007995C0 /* ARKit-Browser.app */,
+				9872C2AA21D935FE007995C0 /* ARKit-BrowserTests.xctest */,
+				9872C2B521D935FE007995C0 /* ARKit-BrowserUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9872C29621D935FD007995C0 /* ARKit-Reflections */ = {
+		9872C29621D935FD007995C0 /* ARKit-Browser */ = {
 			isa = PBXGroup;
 			children = (
+				98D49BB121FB7C6600EA10F5 /* Model */,
+				98D49BB021FB7C5500EA10F5 /* View */,
+				98D49BB221FB7C6D00EA10F5 /* Controller */,
+				984C3FBF244CB11B00A2050A /* Utils */,
 				9872C29721D935FD007995C0 /* AppDelegate.swift */,
-				9872C29B21D935FD007995C0 /* ViewController.swift */,
-				9872C29D21D935FD007995C0 /* Main.storyboard */,
 				9872C2A021D935FE007995C0 /* Assets.xcassets */,
 				9872C29921D935FD007995C0 /* art.scnassets */,
 				9872C2A221D935FE007995C0 /* LaunchScreen.storyboard */,
+				9872C29D21D935FD007995C0 /* Main.storyboard */,
 				9872C2A521D935FE007995C0 /* Info.plist */,
 			);
-			path = "ARKit-Reflections";
+			path = "ARKit-Browser";
 			sourceTree = "<group>";
 		};
-		9872C2AD21D935FE007995C0 /* ARKit-ReflectionsTests */ = {
+		9872C2AD21D935FE007995C0 /* ARKit-BrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				9872C2AE21D935FE007995C0 /* ARKit_ReflectionsTests.swift */,
+				9872C2AE21D935FE007995C0 /* ARKit-BrowserTests.swift */,
 				9872C2B021D935FE007995C0 /* Info.plist */,
 			);
-			path = "ARKit-ReflectionsTests";
+			path = "ARKit-BrowserTests";
 			sourceTree = "<group>";
 		};
-		9872C2B821D935FE007995C0 /* ARKit-ReflectionsUITests */ = {
+		9872C2B821D935FE007995C0 /* ARKit-BrowserUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9872C2B921D935FE007995C0 /* ARKit_ReflectionsUITests.swift */,
+				9872C2B921D935FE007995C0 /* ARKit-BrowserUITests.swift */,
 				9872C2BB21D935FE007995C0 /* Info.plist */,
 			);
-			path = "ARKit-ReflectionsUITests";
+			path = "ARKit-BrowserUITests";
+			sourceTree = "<group>";
+		};
+		98D49BB021FB7C5500EA10F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98F1D80921DA417A00CF3E8A /* WebView.swift */,
+				984C3FBD244CA90B00A2050A /* WebViewNavigationBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98D49BB121FB7C6600EA10F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				984C3FBB244CA6F500A2050A /* WebViewNode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98D49BB221FB7C6D00EA10F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98D49BAC21FB7BA500EA10F5 /* ARSessionDelegate.swift */,
+				9872C29B21D935FD007995C0 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9872C29321D935FD007995C0 /* ARKit-Reflections */ = {
+		9872C29321D935FD007995C0 /* ARKit-Browser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9872C2BE21D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-Reflections" */;
+			buildConfigurationList = 9872C2BE21D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-Browser" */;
 			buildPhases = (
 				9872C29021D935FD007995C0 /* Sources */,
 				9872C29121D935FD007995C0 /* Frameworks */,
@@ -143,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = "ARKit-Reflections";
+			name = "ARKit-Browser";
 			productName = "ARKit-Reflections";
-			productReference = 9872C29421D935FD007995C0 /* ARKit-Reflections.app */;
+			productReference = 9872C29421D935FD007995C0 /* ARKit-Browser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9872C2A921D935FE007995C0 /* ARKit-ReflectionsTests */ = {
+		9872C2A921D935FE007995C0 /* ARKit-BrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9872C2C121D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-ReflectionsTests" */;
+			buildConfigurationList = 9872C2C121D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-BrowserTests" */;
 			buildPhases = (
 				9872C2A621D935FE007995C0 /* Sources */,
 				9872C2A721D935FE007995C0 /* Frameworks */,
@@ -161,14 +208,14 @@
 			dependencies = (
 				9872C2AC21D935FE007995C0 /* PBXTargetDependency */,
 			);
-			name = "ARKit-ReflectionsTests";
+			name = "ARKit-BrowserTests";
 			productName = "ARKit-ReflectionsTests";
-			productReference = 9872C2AA21D935FE007995C0 /* ARKit-ReflectionsTests.xctest */;
+			productReference = 9872C2AA21D935FE007995C0 /* ARKit-BrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9872C2B421D935FE007995C0 /* ARKit-ReflectionsUITests */ = {
+		9872C2B421D935FE007995C0 /* ARKit-BrowserUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9872C2C421D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-ReflectionsUITests" */;
+			buildConfigurationList = 9872C2C421D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-BrowserUITests" */;
 			buildPhases = (
 				9872C2B121D935FE007995C0 /* Sources */,
 				9872C2B221D935FE007995C0 /* Frameworks */,
@@ -179,9 +226,9 @@
 			dependencies = (
 				9872C2B721D935FE007995C0 /* PBXTargetDependency */,
 			);
-			name = "ARKit-ReflectionsUITests";
+			name = "ARKit-BrowserUITests";
 			productName = "ARKit-ReflectionsUITests";
-			productReference = 9872C2B521D935FE007995C0 /* ARKit-ReflectionsUITests.xctest */;
+			productReference = 9872C2B521D935FE007995C0 /* ARKit-BrowserUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9872C28F21D935FD007995C0 /* Build configuration list for PBXProject "ARKit-Reflections" */;
+			buildConfigurationList = 9872C28F21D935FD007995C0 /* Build configuration list for PBXProject "ARKit-Browser" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9872C29321D935FD007995C0 /* ARKit-Reflections */,
-				9872C2A921D935FE007995C0 /* ARKit-ReflectionsTests */,
-				9872C2B421D935FE007995C0 /* ARKit-ReflectionsUITests */,
+				9872C29321D935FD007995C0 /* ARKit-Browser */,
+				9872C2A921D935FE007995C0 /* ARKit-BrowserTests */,
+				9872C2B421D935FE007995C0 /* ARKit-BrowserUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F1D80A21DA417A00CF3E8A /* WebView.swift in Sources */,
+				984C3FBE244CA90B00A2050A /* WebViewNavigationBar.swift in Sources */,
+				984C3FC3244CB12E00A2050A /* Extensions.swift in Sources */,
+				984C3FBC244CA6F500A2050A /* WebViewNode.swift in Sources */,
+				98D49BAD21FB7BA500EA10F5 /* ARSessionDelegate.swift in Sources */,
 				9872C29C21D935FD007995C0 /* ViewController.swift in Sources */,
 				9872C29821D935FD007995C0 /* AppDelegate.swift in Sources */,
 			);
@@ -269,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9872C2AF21D935FE007995C0 /* ARKit_ReflectionsTests.swift in Sources */,
+				9872C2AF21D935FE007995C0 /* ARKit-BrowserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9872C2BA21D935FE007995C0 /* ARKit_ReflectionsUITests.swift in Sources */,
+				9872C2BA21D935FE007995C0 /* ARKit-BrowserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		9872C2AC21D935FE007995C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9872C29321D935FD007995C0 /* ARKit-Reflections */;
+			target = 9872C29321D935FD007995C0 /* ARKit-Browser */;
 			targetProxy = 9872C2AB21D935FE007995C0 /* PBXContainerItemProxy */;
 		};
 		9872C2B721D935FE007995C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9872C29321D935FD007995C0 /* ARKit-Reflections */;
+			target = 9872C29321D935FD007995C0 /* ARKit-Browser */;
 			targetProxy = 9872C2B621D935FE007995C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,13 +490,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
-				INFOPLIST_FILE = "ARKit-Reflections/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit-Browser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AlessandroLoi.ARKit-Reflections";
+				PRODUCT_BUNDLE_IDENTIFIER = AlessandroLoi.ARBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -457,13 +509,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8WP5WHYSB;
-				INFOPLIST_FILE = "ARKit-Reflections/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit-Browser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AlessandroLoi.ARKit-Reflections";
+				PRODUCT_BUNDLE_IDENTIFIER = AlessandroLoi.ARBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -487,7 +539,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Reflections.app/ARKit-Reflections";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Browser.app/ARKit-Browser";
 			};
 			name = Debug;
 		};
@@ -508,7 +560,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Reflections.app/ARKit-Reflections";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Browser.app/ARKit-Browser";
 			};
 			name = Release;
 		};
@@ -555,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9872C28F21D935FD007995C0 /* Build configuration list for PBXProject "ARKit-Reflections" */ = {
+		9872C28F21D935FD007995C0 /* Build configuration list for PBXProject "ARKit-Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9872C2BC21D935FE007995C0 /* Debug */,
@@ -564,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9872C2BE21D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-Reflections" */ = {
+		9872C2BE21D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9872C2BF21D935FE007995C0 /* Debug */,
@@ -573,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9872C2C121D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-ReflectionsTests" */ = {
+		9872C2C121D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-BrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9872C2C221D935FE007995C0 /* Debug */,
@@ -582,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9872C2C421D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-ReflectionsUITests" */ = {
+		9872C2C421D935FE007995C0 /* Build configuration list for PBXNativeTarget "ARKit-BrowserUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9872C2C521D935FE007995C0 /* Debug */,

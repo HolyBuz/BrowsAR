@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ARKit_Reflections
+@testable import ARKit_Browser
 
 class ARKit_ReflectionsTests: XCTestCase {
 
